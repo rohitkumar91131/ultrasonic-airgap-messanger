@@ -31,6 +31,10 @@ export default function Home() {
         <ChatScreen />
       </div>
 
+      <footer className="fixed bottom-2 right-2 text-[10px] text-gray-500 z-50">
+  <a href="/privacy" className="hover:underline">Privacy Policy</a>
+</footer>
+
     </main>
   );
 }
